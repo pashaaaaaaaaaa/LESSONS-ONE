@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+
+    <form action="" class="user-form">
+        <!-- фио -->
+    <label>
+        ФИО пациента:
+        <input type="text" placeholder="ФИО" class="first-name" name="fastname">
+      </label>
+      <!-- паспорт -->
+    <label>
+        Серия и номер паспорта:
+        <input type="number" placeholder="series and number" class="first-name" name="passport">
+      </label>
+      <!-- gender -->
+      <label>
+        Пол:
+        <select class="gender" name="gender">
+          <option value="man">man</option>
+          <option value="wm">woman</option>
+        </select>
+      </label>
+      <!-- age -->
+
+      <label>
+        Возвраст:
+        <input type="number" placeholder="age" class="first-name" name="age">
+      </label>
+      <!-- email -->
+      <label>
+        Email:
+        <input type="email" placeholder="email" class="first-name" name="post">
+      </label>
+      <!-- phone number -->
+      <label>
+        Телефон номер:
+        <input type="number" placeholder="phone" class="first-name" name="phone">
+      </label>
+      <!-- review -->
+        Отзыв
+        <textarea class="last-name" name="massege"></textarea>
+      </label>
+      <!-- send -->
+      <label class="check">
+        Повторный прием:
+        <input type="checkbox" name="checkbox" style="border: radius 50%;">
+      </label>
+      <button>Отправить</button>
+
+    </form>
+</div>
+    <script src="../main.js"></script>
+</body>
+</html>
